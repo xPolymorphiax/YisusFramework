@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YisusFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YisusLogger",
+        "printedName": "YisusLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YisusLogger",
+                "printedName": "YisusFramework.YisusLogger",
+                "usr": "s:14YisusFramework0A6LoggerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14YisusFramework0A6LoggerCACycfc",
+            "mangledName": "$s14YisusFramework0A6LoggerCACycfc",
+            "moduleName": "YisusFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "frameworkLog",
+            "printedName": "frameworkLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14YisusFramework0A6LoggerC12frameworkLogyyF",
+            "mangledName": "$s14YisusFramework0A6LoggerC12frameworkLogyyF",
+            "moduleName": "YisusFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14YisusFramework0A6LoggerC",
+        "mangledName": "$s14YisusFramework0A6LoggerC",
+        "moduleName": "YisusFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yisus\/Desktop\/Ejemplo XCFramework\/YisusFramework\/YisusFramework\/YisusLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 50,
+      "value": "\"Imprimiendo desde la clase del YisusFramework :)\""
+    }
+  ]
+}

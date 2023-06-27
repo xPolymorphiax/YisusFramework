@@ -1,0 +1,11 @@
+framework module YisusFramework {
+  umbrella header "YisusFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module YisusFramework.Swift {
+  header "YisusFramework-Swift.h"
+  requires objc
+}
