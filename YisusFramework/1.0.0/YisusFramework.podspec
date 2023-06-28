@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source       = { :git => "https://github.com/xPolymorphiax/YisusFramework.git", :tag => "#{spec.version}" }
-  spec.source       = { :http => "#{spec.homepage}/archive/refs/#{spec.version}.zip", :flatten => true } 
+  spec.source       = { :http => "#{spec.homepage}/archive/refs/tags/#{spec.version}.zip", :flatten => true } 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
