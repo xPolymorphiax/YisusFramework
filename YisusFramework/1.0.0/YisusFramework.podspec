@@ -80,8 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/xPolymorphiax/YisusFramework.git", :tag => "#{spec.version}" }
-
+  #spec.source       = { :git => "https://github.com/xPolymorphiax/YisusFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "#{spec.homepage}/archive/refs/#{spec.version}.zip", :flatten => true } 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
